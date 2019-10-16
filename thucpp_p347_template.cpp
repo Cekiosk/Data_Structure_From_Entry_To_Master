@@ -10,6 +10,6 @@ int main(){
 	int n=-6;
 	float d=-6.9;
 	cout<<abs(n)<<endl;//abs自动从传入的n、d的类型推理出参数的类型，并且对模板函数实例化 
-	cout<<abs(d)<<endl;//函数模板本身不生成目标代码，实例后才生成目标代码 
+	cout<<abs(d)<<endl;//函数模板本身不生成目标代码，实例后才生成目标代码 ///
 	return 0;
 }
